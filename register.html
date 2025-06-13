@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>registration page</title>
+	<link rel="stylesheet" type="text/css" href="register.css">
+	<script src="jQuerymani.js"></script>
+</head>
+<body id="body">
+	<div id="form">
+		<form id="fform">
+			<table style="border:1px dashed black" rules="none" cellspacing="5px" cellpadding="5px">
+				<tr>
+					<td colspan="2">
+						<center><header id="header"><h3>Register for F1H20 Event</h3></header></center>
+					</td>
+				</tr>
+				<tr>
+					<td><label>Username:</label></td>
+					<td><input id="username" type="text" name="" placeholder="enter username" required>*</td>
+				</tr>
+				<tr>
+					<td><label>E-mail:</label></td>
+					<td><input id="email" type="email" name="" placeholder="enter email" required>*</td>
+				</tr>
+				<tr>
+					<td><label>Mobile:</label></td>
+					<td><input id="mobile" type="text" name="" placeholder="enter phonenumber" required>*</td>
+				</tr>
+				<tr>
+					<td><label>Country:</label></td>
+					<td><select id="country">
+						<option>India</option>
+						<option>America</option>
+						<option>England</option>
+						<option>Germany</option>
+						<option>firm representative of rgukt</option>
+					</select></td>
+				</tr>
+				<tr id="beer">
+					<td><label>Do you want beer:</label></td>
+					<td><input type="radio" name="beer">Yes<input type="radio" name="beer">No</td>
+				</tr>
+				<tr>
+					<td><label>Payment type:</label></td>
+					<td>DD number<input type="radio" name="paymenttype" value="dd">Accout number<input type="radio" name="paymenttype" value="account" required><br>
+                    <input id="paymentinput" type="text" placeholder="Enter payment details" style="display:none; margin-top:5px;" required></td>
+				</tr>
+				<tr>
+					<td><label>type of accomodation want:</label></td>
+					<td>INuzvid<input type="radio" name="hotel" value="INuzvid">Ikadapa<input type="radio" name="hotel" value="IKadapa">ISKLM<input type="radio" name="hotel" value="ISKLM">IONGOLE<input type="radio" name="hotel" value="IONGOLE" required></td>
+				</tr>
+				<tr>
+					<td><label>Services required for accomodation:</label></td>
+					<td>breakfast<input type="checkbox" name="service">lunch<input type="checkbox" name="service">snacks<input type="checkbox" name="service">tea<input type="checkbox" name="service">coffee<input type="checkbox" name="service">Eggs<input type="checkbox" name="service"></td>
+				</tr>
+				<tr>
+					<td><label>NO.of days staying:</label></td>
+					<td>Cost:(INuzid & IKadapa –Rs. 2000/- day, ISKLM & IONGOLE –
+Rs. 3000/-day)<br><input  id="days" type="text" name="" required>*<br>
+					
+				</tr>
+				<tr>
+					<td>
+						<td><label class="nodays" style="display:none;">cost of accomodation=</label><input class="nodays" type="text" name="" style="display:none;" readonly></td>
+				</tr>
+				<tr>
+					<td colspan="2"><input id="clear" type="reset" value="clear"></td>
+				</tr>
+				<tr>
+					<td colspan="2"><input id="register" type="submit" value="register"></td>
+				</tr>
+			</table>
+		</form>
+	</div>
+	<script src="jquery1.js"></script>
+</body>
+</html>
