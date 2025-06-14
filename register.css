@@ -6,6 +6,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  min-height:100vh;
 
 }
 #header{
@@ -17,6 +18,7 @@
   margin: 30px auto;
   padding: 20px;
   border-radius: 15px;
+  min-height:100vh;
 }
 table {
   width: 100%;
